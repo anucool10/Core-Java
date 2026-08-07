@@ -6,6 +6,7 @@ public class SmartThermoStat extends SmartDevice{
 	
 	public void setTemperature(double temp) {
 		targetTemperature = temp;
+		System.out.println("Setting up the temperature");
 		System.out.println(getDeviceName()+" temperature set to "+ temp + " degrees");
 	}
 
