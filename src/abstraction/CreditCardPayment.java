@@ -11,6 +11,7 @@ public class CreditCardPayment extends Payment {
     public void processPayment() {
         System.out.println("Processing $" + amount + " using Credit Card: " + cardNumber);
         System.out.println("Payment Successful");
+        System.out.println("ThANK YOU!");
     }
 
 	
