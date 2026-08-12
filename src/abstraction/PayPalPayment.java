@@ -13,5 +13,6 @@ public class PayPalPayment extends Payment {
         System.out.println("Processing $" + amount + " using PayPal account: " + email);
         System.out.println("Payment Successful");
         // Specific PayPal logic goes here...
+        System.out.println("ThANK YOU!");
     }
 }
