@@ -11,6 +11,8 @@ public class Arraylist {
 			System.out.println(todo);
 			
 		}
+		todos.remove(2);
+		System.out.println(todos);
 	
 		System.out.println(todos.size());
 		
