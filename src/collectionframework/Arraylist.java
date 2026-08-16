@@ -1,12 +1,17 @@
 package collectionframework;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Arraylist {
 	public static void main(String args[]) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Please enter a task: ");
+		String task = scanner.nextLine();
 		ArrayList<String>todos = new ArrayList<String>();
 		todos.add("Play Games");
 		todos.add("Practice Java");
 		todos.add("Go to Work");
+		todos.add(task);
 		for(String todo:todos) {
 			System.out.println(todo);
 			
@@ -15,6 +20,7 @@ public class Arraylist {
 		System.out.println(todos);
 	
 		System.out.println(todos.size());
+		scanner.close();
 		
 		
 	}
