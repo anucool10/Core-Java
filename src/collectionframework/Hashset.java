@@ -11,9 +11,10 @@ public class Hashset {
 		cars.add("Mercedes");
 		cars.add("BMW");
 		cars.add("Lambo");
-		
+		cars.add("byd");		
 		System.out.println(cars.contains("BMW"));
 		System.out.println(cars.remove("Toyota"));
+		System.out.println(cars.contains("byd"));
 		
 		
 		System.out.println(cars);
