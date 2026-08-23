@@ -8,6 +8,9 @@ public class Hashmap {
 		studentGrades.put("Alice", 85);
 		studentGrades.put("Bob", 92);
 		studentGrades.put("Charlie", 85);
+		studentGrades.put("Danny", 85);
+
+		System.our.println(studentGrades);
 		
 		String lookupString = "Bob";
 		if(studentGrades.containsKey(lookupString)) {
