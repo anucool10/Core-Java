@@ -27,7 +27,7 @@ public class TwosumWithHashmap {
 
     public static void main(String[] args) {
         int[] nums = {2, 7, 11, 15};
-        int target = 22;
+        int target = 13;
 
         int[] result = twoSum(nums, target);
         System.out.println("Indices: " + result[0] + " and " + result[1]);
