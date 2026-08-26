@@ -12,6 +12,8 @@ public class StackPractice {
 		System.out.println("Current Stack: " + history);
 		String removedPage = history.pop();
         System.out.println("Just left: " + removedPage);
+        String view = history.peek();
+        System.out.println("Top of stack: " + view);
 		
 		System.out.println("Stack after going back: "+history);
 	}
