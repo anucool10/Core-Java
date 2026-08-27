@@ -8,6 +8,8 @@ public class StackPractice {
 		history.push("google.com");
 		history.push("youtube.com");
 		history.push("github.com");
+		history.push("bideshpath.com");
+		
 		
 		System.out.println("Current Stack: " + history);
 		String removedPage = history.pop();
