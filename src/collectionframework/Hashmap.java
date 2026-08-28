@@ -10,7 +10,7 @@ public class Hashmap {
 		studentGrades.put("Charlie", 85);
 		studentGrades.put("Danny", 85);
 
-		System.our.println(studentGrades);
+		System.out.println(studentGrades);
 		
 		String lookupString = "Bob";
 		if(studentGrades.containsKey(lookupString)) {
