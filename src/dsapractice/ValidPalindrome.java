@@ -30,6 +30,7 @@ public class ValidPalindrome {
 	
     public static void main(String[] args) {
         System.out.println(isPalindrome("racecar")); // Should print true
+		System.out.println(isPalindrome("civic"));
         System.out.println(isPalindrome("hello"));   // Should print false
     }
 
