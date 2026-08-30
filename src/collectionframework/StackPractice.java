@@ -18,6 +18,11 @@ public class StackPractice {
         System.out.println("Top of stack: " + view);
 		
 		System.out.println("Stack after going back: "+history);
+		 if (history.isEmpty()) {
+	            System.out.println("Stack is empty.");
+	        } else {
+	            System.out.println("Stack is not empty.");
+	        }
 	}
 
 	
