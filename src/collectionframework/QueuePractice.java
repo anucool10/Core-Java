@@ -10,6 +10,7 @@ public class QueuePractice {
 		ticketLine.add("Bob");
 		ticketLine.add("Charlie");
 		ticketLine.add("Daisy");
+		ticketLine.add("Elon");
 		System.out.println("Current Line: " + ticketLine);
 		System.out.println("Next up: " + ticketLine.peek());
 		String served = ticketLine.remove();
