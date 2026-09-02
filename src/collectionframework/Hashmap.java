@@ -9,7 +9,7 @@ public class Hashmap {
 		studentGrades.put("Bob", 92);
 		studentGrades.put("Charlie", 85);
 		studentGrades.put("Danny", 85);
-
+studentGrades.put("me",45);
 		System.out.println(studentGrades);
 		
 		String lookupString = "Bob";
