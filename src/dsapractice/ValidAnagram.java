@@ -33,7 +33,11 @@ public class ValidAnagram {
         String s2 = "rat";
         String t2 = "car";
         
+        String s3 = "rood";
+        String t3 = "door";
+        
         System.out.println("Is \"" + s1 + "\" and \"" + t1 + "\" an anagram? " + isAnagram(s1, t1)); // Should print true
-        System.out.println("Is \"" + s2 + "\" and \"" + t2 + "\" an anagram? " + isAnagram(s2, t2)); // Should print false
+        System.out.println("Is \"" + s2 + "\" and \"" + t2 + "\" an anagram? " + isAnagram(s2, t2));
+        System.out.println("Is \"" + s3 + "\" and \"" + t3 + "\" an anagram? " + isAnagram(s3, t3));
     }
 }
