@@ -34,7 +34,7 @@ public class ValidAnagram {
         String t2 = "car";
         
         String s3 = "rood";
-        String t3 = "door";
+        String t3 = "dooen";
         
         System.out.println("Is \"" + s1 + "\" and \"" + t1 + "\" an anagram? " + isAnagram(s1, t1)); // Should print true
         System.out.println("Is \"" + s2 + "\" and \"" + t2 + "\" an anagram? " + isAnagram(s2, t2));
