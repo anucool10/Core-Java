@@ -27,11 +27,13 @@ public class TextCompressor {
 	public static void main(String[] args) {
         String test1 = "aabcccccaaa";
         String test2 = "abcd";
+        String test3 = "abcdeeffgghhh";
         
         System.out.println("Original: " + test1 + " -> Compressed: " + compressString(test1)); 
         // Expected: a2b1c5a3
         
         System.out.println("Original: " + test2 + " -> Compressed: " + compressString(test2)); 
         // Expected: a1b1c1d1
+        System.out.println("Original: " + test3 + " -> Compressed: " + compressString(test3));
     }
 }
