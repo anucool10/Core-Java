@@ -11,10 +11,16 @@ public class TextCleaner {
 		for(int i = 0; i<userInput.length();i++) {
 			char c = userInput.charAt(i);
 			if(Character.isLetterOrDigit(c)) {
-				clean.append(c);
-			}
+				if (Character.isLetterOrDigit(c)) {
+				    if (Character.isUpperCase(c)) {
+				        clean.append(Character.toLowerCase(c));
+				    } else {
+				        clean.append(Character.toUpperCase(c));
+				    }
+				}
+			
 		}
-	
+		}
 
 
 		System.out.println("Cleaned text: " + clean.toString());
