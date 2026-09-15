@@ -23,7 +23,7 @@ public class TextCleaner {
 		}
 
 
-		System.out.println("Cleaned text: " + clean.toString());
+		System.out.println("Final cleaned text: " + clean.toString());
         
         input.close();
 
