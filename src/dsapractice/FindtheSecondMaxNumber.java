@@ -11,6 +11,7 @@ public class FindtheSecondMaxNumber {
         numbers.add(5);
         numbers.add(99);
         numbers.add(23);
+        numbers.add(1);
 
         int max = numbers.get(0);
         int secondMax = Integer.MIN_VALUE; 
