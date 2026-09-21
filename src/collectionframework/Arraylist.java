@@ -11,6 +11,7 @@ public class Arraylist {
 		todos.add("Play Games");
 		todos.add("Practice Java");
 		todos.add("Go to Work");
+		todos.add("sleep");
 		todos.add(task);
 		for(String todo:todos) {
 			System.out.println(todo);
