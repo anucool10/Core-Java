@@ -11,7 +11,8 @@ public class Hashset {
 		cars.add("Mercedes");
 		cars.add("BMW");
 		cars.add("Lambo");
-		cars.add("byd");		
+		cars.add("byd");	
+		cars.add("Tesla");
 		System.out.println(cars.contains("BMW"));
 		System.out.println(cars.remove("Toyota"));
 		System.out.println(cars.contains("byd"));
