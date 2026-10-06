@@ -25,12 +25,11 @@ import jakarta.validation.Valid;
 public class UserController {
 	@Autowired
 	private UserService userService;
-	@Autowired
-	private EcommerceRepository ecommerceRepository;
+	
 
-	public UserController(UserService userService, EcommerceRepository ecommerceRepository) {
+	public UserController(UserService userService) {
 		// TODO Auto-generated constructor stub
-		this.ecommerceRepository = ecommerceRepository;
+		
 		this.userService = userService;
 	}
 	

@@ -8,7 +8,7 @@ import jakarta.persistence.Table;
 import jakarta.validation.constraints.NotBlank;
 
 @Entity
-@Table(name = "app_u	ser")
+@Table(name = "app_user")
 public class User {
 
     @Id
